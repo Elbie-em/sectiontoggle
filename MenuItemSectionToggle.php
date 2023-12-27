@@ -65,7 +65,7 @@ class MenuItemSectionToggle extends AbstractItem {
             'id' => 'toggleAllBtn',
             'rel' => 'nofollow',
             'class' => 'section_toggle',
-            'onclick' => 'updateSections();',
+            'onclick' => 'SectionToggle.updateSections();',
         );
         return $attr;
     }
